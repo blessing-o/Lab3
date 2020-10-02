@@ -16,6 +16,7 @@ public class AddressBook {
         buddyInfos.remove(b);
     }
 
+
     public static void main(String[] args) {
         BuddyInfo b = new BuddyInfo("Tom","Carleton","613");
         AddressBook buddies = new AddressBook();
@@ -24,5 +25,6 @@ public class AddressBook {
         System.out.println("Address Book");
         System.out.println("temp");
         System.out.println("test added");
+        System.out.println("could not think of anew method to add");
     }
 }
