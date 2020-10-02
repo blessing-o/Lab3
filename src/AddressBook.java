@@ -17,9 +17,11 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
-//        BuddyInfo b = new BuddyInfo("","","");
-//        ArrayList<BuddyInfo> buddies = new ArrayList();
-//        buddies.addBuddy(b);
+        BuddyInfo b = new BuddyInfo("Tom","Carleton","613");
+        AddressBook buddies = new AddressBook();
+        buddies.addBuddy(b);
+        buddies.removeBuddy(b);
         System.out.println("Address Book");
+        System.out.println("temp");
     }
 }
