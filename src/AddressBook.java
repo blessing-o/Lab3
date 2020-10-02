@@ -23,6 +23,6 @@ public class AddressBook {
         buddies.removeBuddy(b);
         System.out.println("Address Book");
         System.out.println("temp");
-        System.out.println("test added");_
+        System.out.println("test added");
     }
 }
